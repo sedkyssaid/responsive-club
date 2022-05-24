@@ -1,8 +1,20 @@
 :root {
-    /* CSS HEX */
---purple-pizzazz: #ff47daff;
---dark-sienna: #230903ff;
---flax: #f4e285ff;
---kombu-green: #273c2cff;
---battleship-grey: #878e88ff;
+  /* CSS HEX */
+  --purple-pizzazz: #ff47daff;
+  --dark-sienna: #230903ff;
+  --flax: #f4e285ff;
+  --kombu-green: #273c2cff;
+  --battleship-grey: #878e88ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Red Hat Mono', monospace;
+}
+
+body {
+    background-color: var(--flax);
 }
