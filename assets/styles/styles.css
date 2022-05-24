@@ -1,3 +1,6 @@
+/*
+ *** GLOBAL ***
+ */
 :root {
   /* CSS HEX */
   --purple-pizzazz: #ff47daff;
@@ -12,9 +15,69 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 16px;
-  font-family: 'Red Hat Mono', monospace;
+  font-family: "Red Hat Mono", monospace;
 }
 
 body {
-    background-color: var(--flax);
+  background-color: var(--flax);
+}
+
+  h1 {
+    font-size: 2.8125em;
+  }
+  h2 {
+    font-size: 2.5;
+  }
+  h3 {
+    font-size: 2.1875em;
+  }
+  h4 {
+    font-size: 1.75em;
+  }
+  h5 {
+    font-size: 1.5625em;
+  }
+  h6 {
+    font-size: 1.25em;
+  }
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 2.8125em;
+  }
+  h3 {
+    font-size: 2.5em;
+  }
+  h4 {
+    font-size: 2.1875em;
+  }
+  h5 {
+    font-size: 1.75em;
+  }
+  h6 {
+    font-size: 1.5625em;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  h1 {
+    font-size: 3.125em;
+  }
+  h2 {
+    font-size: 3em;
+  }
+  h3 {
+    font-size: 2.8125em;
+  }
+  h4 {
+    font-size: 2.5em;
+  }
+  h5 {
+    font-size: 2.1875em;
+  }
+  h6 {
+    font-size: 1.75em;
+  }
 }
