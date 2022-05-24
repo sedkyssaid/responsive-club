@@ -1,5 +1,5 @@
 /*
- *** GLOBAL ***
+ ****** GLOBAL ******
  */
 :root {
   /* CSS HEX */
@@ -21,31 +21,26 @@
 body {
   background-color: var(--flax);
 }
+h1 {
+  font-size: 2.8125em;
+}
+h2 {
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 2.1875em;
+}
+h4 {
+  font-size: 1.75em;
+}
+h5 {
+  font-size: 1.5625em;
+}
+h6 {
+  font-size: 1.25em;
+}
 
-  h1 {
-    font-size: 2.8125em;
-  }
-  h2 {
-    font-size: 2.5em;
-  }
-  h3 {
-    font-size: 2.1875em;
-  }
-  h4 {
-    font-size: 1.75em;
-  }
-  h5 {
-    font-size: 1.5625em;
-  }
-  h6 {
-    font-size: 1.25em;
-  }
-
-  p {
-      font-size: inherit;
-  }
-
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   h1 {
     font-size: 3em;
   }
@@ -65,7 +60,8 @@ body {
     font-size: 1.5625em;
   }
 }
-@media only screen and (min-width: 1024px) {
+
+@media only screen and (min-width: 1280px) {
   h1 {
     font-size: 3.125em;
   }
@@ -84,4 +80,11 @@ body {
   h6 {
     font-size: 1.75em;
   }
+}
+
+p {
+  font-size: inherit;
+}
+img {
+  display: block;
 }
