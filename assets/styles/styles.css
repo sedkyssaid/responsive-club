@@ -173,14 +173,15 @@ img {
 .meetup-images {
   position: relative;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-content: center;
   flex-flow: column wrap;
   width: 100%;
   height: 100%;
+  padding: 0.625rem 0;
 }
 .meetup-images__img-container {
-  max-height: 25rem;
+  margin: 0.625rem;
 }
 .meetup-images__img {
   width: 100%;
