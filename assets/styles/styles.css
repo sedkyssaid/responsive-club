@@ -16,11 +16,11 @@
   box-sizing: border-box;
   font-size: 16px;
   font-family: "Red Hat Mono", monospace;
-  color: var(--dark-sienna);
 }
 
 body {
   background-color: var(--flax);
+  color: var(--dark-sienna);
 }
 h1 {
   font-size: 2.8125em;
@@ -121,7 +121,7 @@ img {
   align-self: center;
   padding: 0.625em;
   text-decoration: none;
-  color: inherit;
+  color: var(--kombu-green);
 }
 .header__link:active {
   color: var(--purple-pizzazz);
@@ -137,4 +137,27 @@ img {
     justify-content: space-between;
     padding: 0 1.25em;
   }
+}
+
+/*
+****** Hero ******
+ */
+.hero {
+  position: relative;
+  background-image: url("/assets/images/hero-front-end-code.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-origin: content-box; */
+  padding: 20% 0;
+}
+.hero__content {
+  background-color: rgba(255, 71, 218, 0.5);
+  color: white;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.hero__content--mb {
+  margin-bottom: 20px;
 }
