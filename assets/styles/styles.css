@@ -16,6 +16,7 @@
   box-sizing: border-box;
   font-size: 16px;
   font-family: "Red Hat Mono", monospace;
+  color: var(--dark-sienna);
 }
 
 body {
@@ -87,4 +88,53 @@ p {
 }
 img {
   display: block;
+}
+
+/*
+****** Header ******
+ */
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: column wrap;
+  width: 100%;
+}
+.header__logo {
+  position: relative;
+  margin: 0.625em auto;
+  max-width: 6.25em;
+  border-radius: 100%;
+  align-self: center;
+}
+.header__nav {
+  position: relative;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.header__link {
+  justify-self: center;
+  align-self: center;
+  padding: 0.625em;
+  text-decoration: none;
+  color: inherit;
+}
+.header__link:active {
+  color: var(--purple-pizzazz);
+}
+@media only screen and (min-width: 768px) {
+  .header__nav--md {
+    flex-direction: row;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .header--lg {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1.25em;
+  }
 }
