@@ -14,13 +14,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 16px;
-  font-family: "Red Hat Mono", monospace;
 }
 
 body {
   background-color: var(--flax);
   color: var(--dark-sienna);
+  font-size: 16px;
+  font-family: "Red Hat Mono", monospace;
 }
 h1 {
   font-size: 2.8125em;
@@ -39,6 +39,15 @@ h5 {
 }
 h6 {
   font-size: 1.25em;
+}
+a {
+  font-size: 1.125rem;
+}
+p {
+  font-size: inherit;
+}
+img {
+  display: block;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -59,6 +68,9 @@ h6 {
   }
   h6 {
     font-size: 1.5625em;
+  }
+  a {
+    font-size: 1.25rem;
   }
 }
 
@@ -81,13 +93,6 @@ h6 {
   h6 {
     font-size: 1.75em;
   }
-}
-
-p {
-  font-size: inherit;
-}
-img {
-  display: block;
 }
 
 /*
@@ -195,5 +200,25 @@ img {
   .meetup-images__img-container {
     max-height: 18.75rem;
     max-width: 18.75rem;
+  }
+}
+
+/* 
+****** Pull Quote ******
+ */
+.pull-quote {
+  background-color: var(--battleship-grey);
+  padding: 0.75rem;
+  color: #fff;
+  font-size: 1.25rem;
+}
+@media only screen and (min-width: 768px) {
+  .pull-quote {
+    padding: 1.75rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .pull-quote {
+    font-size: 2rem;
   }
 }
