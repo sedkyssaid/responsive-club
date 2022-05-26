@@ -226,11 +226,32 @@ img {
 ****** Information ******
 */
 .information {
-  padding: 1.25rem 0;
+  padding: 1.25rem;
   display: flex;
   justify-content: center;
   align-content: center;
   flex-flow: column wrap;
+  background-color: var(--dark-sienna);
+  margin: 1.25rem auto;
+}
+.information__heading {
+  padding: 0.625rem;
+  color: #fff;
+  align-self: center;
 }
 .information__image {
+  width: 100%;
+  height: auto;
+}
+@media only screen and (min-width: 1024px) {
+  .information {
+    flex-flow: row;
+  }
+  .information__heading {
+    max-width: none;
+    width: 100%;
+  }
+  .information__image {
+    max-width: 50%;
+  }
 }
