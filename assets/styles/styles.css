@@ -255,3 +255,20 @@ img {
     max-width: 50%;
   }
 }
+
+/* 
+****** Sponsors *******
+*/
+.sponsors {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: center;
+  margin: 1.25rem auto;
+}
+.sponsors__logo {
+  max-width: 12.5rem;
+  height: 12.5rem;
+  background-color: #ffffff;
+  margin: 2%;
+}
