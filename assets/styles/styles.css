@@ -128,7 +128,8 @@ img {
   text-decoration: none;
   color: var(--kombu-green);
 }
-.header__link:active {
+.header__link:active,
+.header__link:hover {
   color: var(--purple-pizzazz);
 }
 @media only screen and (min-width: 768px) {
@@ -271,4 +272,31 @@ img {
   height: 12.5rem;
   background-color: #ffffff;
   margin: 2%;
+}
+
+/*
+****** Footer *******
+*/
+.footer {
+  background-color: var(--kombu-green);
+  width: 100%;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: column wrap;
+  padding: 1.25rem;
+}
+.footer__nav {
+  margin: 1.25rem auto;
+}
+.footer__link {
+  color: var(--flax);
+  text-decoration: none;
+}
+.footer__link:active,
+.footer__link:hover {
+  color: var(--purple-pizzazz);
 }
