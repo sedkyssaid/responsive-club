@@ -1,29 +1,13 @@
-# README #
+# Responsive Club #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+A static site using HTML 5 and CSS to create a meetup group page using flexbox and media queries.
 
-### What is this repository for? ###
+## Whatis this repository for? ##
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* The site is Codecademy Challenge Project. The task is to use responsive web design techniques to create a club group page built from scratch with openended requirements. This is my solution. 
+* v1.0
+* [Responsive Club]()
 
-### How do I get set up? ###
+### The assignment ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+In this project, you’ll be building your own club group page that will dynamically respond as you adjust the size of your screen!​
